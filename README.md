@@ -3,12 +3,12 @@ Patch for macOS 13.3+ to fix WiFi and Ethernet issues when AppleVTD is enabled
 
 **Problem:**
 
-On some systems such as Z390 Designare and Z490 Vision D, WiFi and Ethernet stopped working with macOS Ventura 13.3. This problem affects all motherboards whose native DMA remap table (DMAR) contains one or more Reserved Memory Regions. Further, this problem occurs only when AppleVTD is enabled and more than 16GB memory is installed.
+On some systems such as Z390 Designare and Z490 Vision D, WiFi and Ethernet stopped working with macOS Ventura 13.3. This problem affects all motherboards whose native DMA remap table (DMAR) contains one or more *Reserved Memory Regions*. Further, this problem occurs only when AppleVTD is enabled and more than 16GB memory is installed.
 
 
 **Solution:**
 
-- You may re-enable AppleVTD if you disabled it
+- You may [re-enable AppleVTD](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.316533/post-2262129) if you disabled it
 - Apply the following patch to *config.plist -> Kernel -> patch*
 
 
