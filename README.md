@@ -65,4 +65,4 @@ This patch can be added manually by copying-and-pasting into *config.plist*. It 
 The patch will be added to the end of your current set of patches (if any):
 ![Screenshot 2023-04-02 at 2 46 21 PM](https://user-images.githubusercontent.com/48335376/229380708-bec893c7-1673-4da5-a743-17f14701e5ce.png)
 
-[^1]: **Warning:** Always use the proper version of *OpenCore Configurator (OCC)*! Each version of OCC supports two versions of OpenCore. Check the OCC *title bar* (see screenshot above) to see which version of OpenCore is being supported. Do **not** use a version of OCC that does not support your version of OpenCore!
+[^1]: **Warning:** Always use the proper version of *OpenCore Configurator (OCC)*! Each version of OCC supports two versions of OpenCore. Check the OCC *title bar* (see screenshot above) to see which version of OpenCore is being supported. Do **not** use a version of OCC that does not support your version of OpenCore! Also make sure that only **one EFI partition is mounted** when using *OpenCore Configurator*.
