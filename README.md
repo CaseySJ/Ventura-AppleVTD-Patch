@@ -11,6 +11,7 @@ On some systems such as Z390 Designare and Z490 Vision D, WiFi and Ethernet stop
 - You may [re-enable AppleVTD](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.316533/post-2262129) if you disabled it
 - Apply the following patch to *config.plist -> Kernel -> patch*
 
+An explanation of how the patch was found and what it does is [provided here](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.316533/post-2365883).
 
 **Patch Details:**
 
