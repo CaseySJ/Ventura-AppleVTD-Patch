@@ -2,7 +2,7 @@
 Patch for macOS 13.3+ to fix WiFi and Ethernet issues when AppleVTD is enabled
 
 **Update 06 Apr 2023:**
-This patch has been merged into OpenCore as a new kernel quirk named `DisableIoMapperMapping`. It will be available in May with OpenCore 0.9.2. Details of the quirk can be [found here](https://github.com/acidanthera/OpenCorePkg/pull/440). 
+This patch has been merged into OpenCore as a new kernel quirk named `DisableIoMapperMapping`. It will be available in May with OpenCore 0.9.2. Details of the quirk can be [found here](https://github.com/acidanthera/OpenCorePkg/pull/440). When the quirk is available, the patches described below may be disabled or deleted. 
 
 **Problem:**
 
