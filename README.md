@@ -1,17 +1,11 @@
 # Ventura-AppleVTD-Patch
-Patch for macOS 13.3+ to fix WiFi and Ethernet issues when AppleVTD is enabled
+Patch for macOS 13.3+ to fix WiFi and Ethernet issues when AppleVTD is enabled and system has (a) >16GB memory and (b) supported iGPU enabled
 
-<table>
-<tbody>
-<tr>
-<td>Update 06 Apr 2023</td>
-</tr>
-<tr>
-<td>This patch has been merged into OpenCore as a new kernel quirk named `DisableIoMapperMapping`. It will be available in May with OpenCore 0.9.2. Details of the quirk can be found here: https://github.com/acidanthera/OpenCorePkg/pull/440. When the quirk is available, the patches described below may be disabled or deleted.</td>
-</tr>
-</tbody>
-</table>
-  
+| Date               | Notice |
+| :--                | :-- |
+| 06 Apr 2023        | This patch has been merged into OpenCore as a new kernel quirk named `DisableIoMapperMapping`. It will be available in May with OpenCore 0.9.2. Details of the quirk can be [found here](https://github.com/acidanthera/OpenCorePkg/pull/440). When the quirk is available, the patches described below may be disabled or deleted. |
+
+
 **Problem:**
 
 On some systems such as Z390 Designare and Z490 Vision D, WiFi and Ethernet stopped working with macOS Ventura 13.3. This problem affects all motherboards whose native DMA remap table (DMAR) contains one or more *Reserved Memory Regions*. Further, this problem occurs only when AppleVTD is enabled and more than 16GB memory is installed.
